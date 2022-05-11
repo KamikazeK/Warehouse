@@ -1,6 +1,6 @@
 package Overload;
 
-public class sum {
+public class 求和多类型 {
     public static void main(String[] args){
         System.out.println(sum(1,2));
         System.out.println(sum(1.0,2.0));

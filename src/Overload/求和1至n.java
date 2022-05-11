@@ -1,7 +1,7 @@
 package Overload;
 import java.util.Scanner;
 
-public class sum0 {
+public class 求和1至n {
     public static void main(String[] args){
         System.out.println("Plz input n:");
 
