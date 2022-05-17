@@ -19,3 +19,4 @@ public class 阶乘非递归 {
         return result;
     }
 }
+
