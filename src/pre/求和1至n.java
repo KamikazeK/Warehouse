@@ -1,4 +1,4 @@
-package Overload;
+package pre;
 import java.util.Scanner;
 
 public class 求和1至n {

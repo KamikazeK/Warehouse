@@ -1,23 +1,22 @@
-package Overload;
+package pre;
 import java.util.*;
 
-public class 阶乘递归 {
+public class 阶乘非递归 {
     public static void main(String[] args){
         System.out.println("Plz input a num: ");
         Scanner input=new Scanner(System.in);
-        long n=input.nextLong();
+        long n= input.nextLong();
+        //int n=5;
         long returnValue=method(n);
-
         System.out.println(returnValue);
     }
 
     public static long method(long n){
-        if(n==1){
-            return 1;
+        long result=1;
+        for(long i=n;i>0;i--){
+            result=result*i;
         }
-        else{
-            return n*method(n-1);
-        }
+        return result;
     }
-
 }
+
